@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1:User Login Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="flex items-center justify-center">
+        <form action="#" class="w-auto border border-gray-300 p-10">
+            <div>
+                <h1 class="text-center text-3xl">Login</h1>
+                <p class="text-center text-slate-500 my-5">Enter your credentials to access your account</p>
+                <div class=" shadow-md shadow-gray-700 flex gap-2 border border-white justify-center items-center py-2 my-10">
+                    <img src="https://www.google.com/favicon.ico" alt="">
+                    <p>Login with Google</p>
+                </div>
+                <div class="flex justify-center items-center gap-4 py-4">
+                    <div class="w-full border border-gray-300"></div>
+                    <p>Or</p>
+                    <div class="w-full border border-gray-300"> </div>
+                </div>
+            </div>
+            <div class="flex flex-col">
+                <div class="flex flex-col my-5">
+                    <label for="user-email">Email Address</label>
+                    <input class="border border-gray-400 px-2 py-2" type="email" placeholder="example@gmail.com" id="user-email">
+                </div>
+                <div class="my-5">
+                    <div class="flex justify-between">
+                        <label for="user-password">Password</label>
+                        <p class="ml-10 text-blue-500">Forget Password?</p>
+                    </div>
+                    <input class="w-full border border-gray-400 px-2 py-2" type="password" placeholder="Password" id="user-password">
+                </div>
+                <button class="text-center bg-blue-500 text-white px-4 py-2">Login</button>
+                <h2 class="my-5 text-center text-gray-500">Don't have an account?<span class="font-semibold text-black"> Register here</span></h2>
+            </div>
+            
+        </form>
+        <img class="hidden lg:block lg:w-[50%] xl:w-[50%]" src="https://img.freepik.com/free-photo/young-happy-woman-with-good-idea-sign-white-shirt-full-portrait_186202-4377.jpg?w=740&t=st=1698823878~exp=1698824478~hmac=a618d6889e277bc10640f6cf3cc7314b0e59eeca332c64371210508a70d784e2" alt="">
+    </div>
+</body>
+</html>
